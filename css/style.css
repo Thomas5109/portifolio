@@ -1,0 +1,113 @@
+
+*   {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+body    {
+    background-color: black;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin-top: 6%;
+    padding: 48px;
+}
+
+.terminal-line {
+    display: inline-block;
+    width: 6px;
+    height: 1.1em;
+
+    background-color: greenyellow;
+
+    vertical-align: -0.15em;
+
+    animation: terminalBlink 0.8s infinite steps(1);
+}
+
+@keyframes terminalBlink {
+    0%, 50% {
+        background-color: greenyellow;
+    }
+
+    51%, 100% {
+        background-color: black;
+    }
+}
+
+.titulo h1  {
+    font-size: 55px;
+
+    margin-top: auto;
+    margin-bottom: 1%;
+
+    display: inline-block;
+    color:  gray;
+}
+
+.titulo p  {
+    font-size: x-large;
+    font-style: oblique;
+
+    color:  gray;
+}
+
+.works-button {
+    margin-top: 3%;
+    
+    padding-right: 65px;
+    padding-left: 65px;
+    border-radius: 15px;
+    
+    background-color: greenyellow;
+    border-style: hidden;
+}
+
+.works-button p {
+    font-size: 18px;
+    font-style:normal;
+
+    color: black;
+    text-align: center;
+}
+
+section {
+    margin-top: 6%;
+    padding: 48px;
+    
+}
+
+
+section h2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+section h2 .barraBranca {
+    background-color: gray;
+    margin-left: 10px;
+    height: 2px;
+    width: 10px;
+    flex: 1
+}
+
+.blocosDeProjeto    {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.projeto  {
+    border: 2px solid gray;
+    border-radius: 15px;
+
+    width: 820px;
+    height: 250px;
+    
+    margin: 1%;
+    padding: 1%;
+}
